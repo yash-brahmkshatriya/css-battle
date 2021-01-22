@@ -1,0 +1,62 @@
+{
+  "target1": {
+    "match": "100%",
+    "score": 692.17,
+    "chars": 154
+  },
+  "target2": {
+    "match": "100%",
+    "score": 601.7,
+    "chars": 573
+  },
+  "target3": {
+    "match": "100%",
+    "score": 600.44,
+    "chars": 715
+  },
+  "target4": {
+    "match": "100%",
+    "score": 600.26,
+    "chars": 772
+  },
+  "target5": {
+    "match": "100%",
+    "score": 600.09,
+    "chars": 576
+  },
+  "target6": {
+    "match": "100%",
+    "score": 600.09,
+    "chars": 656
+  },
+  "target7": {
+    "match": "100%",
+    "score": 601.47,
+    "chars": 588
+  },
+  "target8": {
+    "match": "100%",
+    "score": 600,
+    "chars": 1324
+  },
+  "target9": {
+    "match": "100%",
+    "score": 600.17,
+    "chars": 816
+  },
+  "target10": {
+    "match": "100%",
+    "score": 600,
+    "chars": 1247
+  },
+  "target11": {
+    "match": "100%",
+    "score": 600.02,
+    "chars": 1060
+  },
+  "target12": {
+    "match": "100%",
+    "score": 600.09,
+    "chars": 886
+  }
+}

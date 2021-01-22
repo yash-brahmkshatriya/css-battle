@@ -1,0 +1,31 @@
+<div class="circle o2"></div>
+<div class="circle b"></div>
+<div class="circle o1"></div>
+<style>
+  body {
+    background: #0b2429;
+    position: relative;
+  }
+  .circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+  }
+  .circle.o1 {
+    background: #f3ac3c;
+    border-top-right-radius: 0px;
+    transform: translate(-100%, 0%);
+  }
+  .circle.o2 {
+    background: #f3ac3c;
+    transform: translate(0%, -100%);
+  }
+  .circle.b {
+    background: #998235;
+    border-top-right-radius: 0px;
+  }
+</style>

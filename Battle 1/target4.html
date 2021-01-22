@@ -1,0 +1,40 @@
+<div class="outer">
+  <div class="wave"></div>
+  <div class="wave c"></div>
+  <div class="wave"></div>
+</div>
+<div class="outer">
+  <div class="wave t"></div>
+  <div class="wave"></div>
+  <div class="wave t"></div>
+</div>
+<style>
+  body {
+    background: #62306d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translateY(-8px);
+    height: 100vh;
+  }
+  .outer {
+    display: flex;
+    justify-content: center;
+  }
+  .wave {
+    width: 100px;
+    height: 100px;
+  }
+  .wave.c {
+    background: #f7ec7d;
+    border-radius: 0px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+  .wave.t {
+    background: #f7ec7d;
+    border-radius: 0px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+</style>

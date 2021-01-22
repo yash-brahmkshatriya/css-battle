@@ -1,0 +1,53 @@
+<div id="l"></div>
+<div id="m"></div>
+<div id="r"></div>
+<style>
+  body {
+    background: #f5d6b4;
+    position: relative;
+    margin: 0;
+  }
+  #l,
+  #m,
+  #r {
+    width: 60px;
+    height: 30px;
+    border: 20px solid #d86f45;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  #m {
+    border-radius: 50px 50px 0 0;
+    border-bottom: 0;
+    transform: translate(-50%, -100%);
+  }
+  #l,
+  #r {
+    border-radius: 0 0 50px 50px;
+    border-top: 0;
+  }
+  #l {
+    transform: translate(-130%, 0%);
+  }
+  #r {
+    transform: translate(30%, 0%);
+  }
+  #l:before,
+  #r:after,
+  #l:after,
+  #r:before {
+    content: '';
+    width: 20px;
+    height: 15px;
+    position: absolute;
+    border-radius: 20px 20px 0 0;
+    background: #d86f45;
+    transform: translate(-100%, -70%);
+  }
+
+  #r:after,
+  #l:after {
+    transform: translate(300%, -70%);
+  }
+</style>

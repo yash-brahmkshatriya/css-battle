@@ -1,0 +1,75 @@
+<div class="center-div bx l">
+  <div class="oc">
+    <div class="ic"></div>
+  </div>
+</div>
+<div class="center-div bx r">
+  <div class="oc">
+    <div class="ic"></div>
+  </div>
+</div>
+<div class="center-div bx m">
+  <div class="oc">
+    <div class="ic"></div>
+  </div>
+</div>
+
+<style>
+  body {
+    background: #62306d;
+    position: relative;
+    margin: 0;
+  }
+  .center-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 150px;
+  }
+  .bx {
+    width: 120px;
+    height: 100px;
+
+    background: #f7ec7d;
+  }
+  .l {
+    transform: translate(-125%, 50%);
+  }
+  .r {
+    transform: translate(25%, 50%);
+  }
+  .m {
+    width: 100px;
+    height: 200px;
+    transform: translate(-50%, -25%);
+  }
+  .oc {
+    width: 100px;
+    height: 100px;
+    background: #aa445f;
+    border-radius: 50%;
+    position: relative;
+    transform: translate(0%, -50%);
+  }
+  .ic {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    background: #e38f66;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .m .oc {
+    background: #e38f66;
+  }
+  .m .ic {
+    background: #aa445f;
+  }
+  .r .oc {
+    transform: translate(20%, -50%);
+  }
+</style>
